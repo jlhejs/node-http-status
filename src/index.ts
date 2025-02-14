@@ -45,6 +45,7 @@ const classes = {
 } as const;
 
 const status = {
+  ...classes,
   classes: classes,
 
   // Informational 1xx
